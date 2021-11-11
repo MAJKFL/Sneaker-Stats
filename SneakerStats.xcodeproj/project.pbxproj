@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA30F02E24B3A71F00FE7934 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA30F02D24B3A71F00FE7934 /* RatingView.swift */; };
+		AA7E457624B758D2001A93F7 /* CountingUpTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7E457524B758D2001A93F7 /* CountingUpTimerView.swift */; };
+		AA97FB7B24B26D4C00644FC2 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA97FB7A24B26D4C00644FC2 /* AddView.swift */; };
+		AA97FB7D24B26D9200644FC2 /* Sneaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA97FB7C24B26D9200644FC2 /* Sneaker.swift */; };
+		AA97FB7F24B26EE800644FC2 /* SearchedSneakersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA97FB7E24B26EE800644FC2 /* SearchedSneakersModel.swift */; };
+		AA97FB8124B2783400644FC2 /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA97FB8024B2783400644FC2 /* DetailedView.swift */; };
+		AA97FB8324B2785000644FC2 /* SneakerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA97FB8224B2785000644FC2 /* SneakerInfoView.swift */; };
+		AA9A850C24B4F77C00CE289F /* DailySuggestionsStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9A850B24B4F77C00CE289F /* DailySuggestionsStatsView.swift */; };
+		AAD8774E24F1702D00B370E7 /* StartWalkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8774D24F1702D00B370E7 /* StartWalkingView.swift */; };
+		AAD8775724F1AFBF00B370E7 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8775624F1AFBF00B370E7 /* SearchBarView.swift */; };
+		AAE2400424B214C600B6117A /* SneakerStatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2400324B214C600B6117A /* SneakerStatsApp.swift */; };
+		AAE2400624B214C600B6117A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2400524B214C600B6117A /* ContentView.swift */; };
+		AAE2400824B214C900B6117A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE2400724B214C900B6117A /* Assets.xcassets */; };
+		AAE2400B24B214C900B6117A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE2400A24B214C900B6117A /* Preview Assets.xcassets */; };
+		AAE2401324B2150900B6117A /* PersistentCloudKitContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2401224B2150900B6117A /* PersistentCloudKitContainer.swift */; };
+		AAE2401624B2156B00B6117A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAE2401424B2156B00B6117A /* Model.xcdatamodeld */; };
+		AAE2402124B219FC00B6117A /* FetchableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2402024B219FC00B6117A /* FetchableImage.swift */; };
+		AAE2402B24B21DFB00B6117A /* Sneaker+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2402924B21DFB00B6117A /* Sneaker+CoreDataClass.swift */; };
+		AAE2402C24B21DFB00B6117A /* Sneaker+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2402A24B21DFB00B6117A /* Sneaker+CoreDataProperties.swift */; };
+		AAE24B7124B4C05900735E51 /* StartWalkingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE24B7024B4C05900735E51 /* StartWalkingButtonView.swift */; };
+		AAE24B7324B4C46C00735E51 /* lastWalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE24B7224B4C46C00735E51 /* lastWalkView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA30F02D24B3A71F00FE7934 /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		AA7E457524B758D2001A93F7 /* CountingUpTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingUpTimerView.swift; sourceTree = "<group>"; };
+		AA97FB7A24B26D4C00644FC2 /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		AA97FB7C24B26D9200644FC2 /* Sneaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sneaker.swift; sourceTree = "<group>"; };
+		AA97FB7E24B26EE800644FC2 /* SearchedSneakersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchedSneakersModel.swift; sourceTree = "<group>"; };
+		AA97FB8024B2783400644FC2 /* DetailedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
+		AA97FB8224B2785000644FC2 /* SneakerInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SneakerInfoView.swift; sourceTree = "<group>"; };
+		AA9A850B24B4F77C00CE289F /* DailySuggestionsStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySuggestionsStatsView.swift; sourceTree = "<group>"; };
+		AAD8774D24F1702D00B370E7 /* StartWalkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWalkingView.swift; sourceTree = "<group>"; };
+		AAD8775624F1AFBF00B370E7 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		AAE2400024B214C600B6117A /* SneakerStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SneakerStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE2400324B214C600B6117A /* SneakerStatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerStatsApp.swift; sourceTree = "<group>"; };
+		AAE2400524B214C600B6117A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAE2400724B214C900B6117A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAE2400A24B214C900B6117A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAE2400C24B214C900B6117A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE2401224B2150900B6117A /* PersistentCloudKitContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentCloudKitContainer.swift; sourceTree = "<group>"; };
+		AAE2401524B2156B00B6117A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		AAE2402024B219FC00B6117A /* FetchableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchableImage.swift; sourceTree = "<group>"; };
+		AAE2402924B21DFB00B6117A /* Sneaker+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sneaker+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AAE2402A24B21DFB00B6117A /* Sneaker+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sneaker+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AAE24B7024B4C05900735E51 /* StartWalkingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWalkingButtonView.swift; sourceTree = "<group>"; };
+		AAE24B7224B4C46C00735E51 /* lastWalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lastWalkView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAE23FFD24B214C600B6117A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAD8774B24F16F5200B370E7 /* DetailedView */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8774C24F16FF200B370E7 /* StartWalking */,
+				AA97FB8024B2783400644FC2 /* DetailedView.swift */,
+				AA30F02D24B3A71F00FE7934 /* RatingView.swift */,
+				AA97FB8224B2785000644FC2 /* SneakerInfoView.swift */,
+				AAE24B7224B4C46C00735E51 /* lastWalkView.swift */,
+				AAE24B7024B4C05900735E51 /* StartWalkingButtonView.swift */,
+				AA7E457524B758D2001A93F7 /* CountingUpTimerView.swift */,
+				AA9A850B24B4F77C00CE289F /* DailySuggestionsStatsView.swift */,
+			);
+			path = DetailedView;
+			sourceTree = "<group>";
+		};
+		AAD8774C24F16FF200B370E7 /* StartWalking */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8774D24F1702D00B370E7 /* StartWalkingView.swift */,
+			);
+			path = StartWalking;
+			sourceTree = "<group>";
+		};
+		AAE23FF724B214C500B6117A = {
+			isa = PBXGroup;
+			children = (
+				AAE2400224B214C600B6117A /* SneakerStats */,
+				AAE2400124B214C600B6117A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAE2400124B214C600B6117A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAE2400024B214C600B6117A /* SneakerStats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAE2400224B214C600B6117A /* SneakerStats */ = {
+			isa = PBXGroup;
+			children = (
+				AAE2402824B21DAC00B6117A /* CoreData */,
+				AAE2402724B21DA500B6117A /* Models */,
+				AAE2402624B21D9B00B6117A /* Views */,
+				AAE2400724B214C900B6117A /* Assets.xcassets */,
+				AAE2400C24B214C900B6117A /* Info.plist */,
+				AAE2400924B214C900B6117A /* Preview Content */,
+			);
+			path = SneakerStats;
+			sourceTree = "<group>";
+		};
+		AAE2400924B214C900B6117A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AAE2400A24B214C900B6117A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAE2402624B21D9B00B6117A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8774B24F16F5200B370E7 /* DetailedView */,
+				AAE2400324B214C600B6117A /* SneakerStatsApp.swift */,
+				AAE2400524B214C600B6117A /* ContentView.swift */,
+				AA97FB7A24B26D4C00644FC2 /* AddView.swift */,
+				AAD8775624F1AFBF00B370E7 /* SearchBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAE2402724B21DA500B6117A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAE2401224B2150900B6117A /* PersistentCloudKitContainer.swift */,
+				AAE2402024B219FC00B6117A /* FetchableImage.swift */,
+				AA97FB7C24B26D9200644FC2 /* Sneaker.swift */,
+				AA97FB7E24B26EE800644FC2 /* SearchedSneakersModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AAE2402824B21DAC00B6117A /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				AAE2402924B21DFB00B6117A /* Sneaker+CoreDataClass.swift */,
+				AAE2402A24B21DFB00B6117A /* Sneaker+CoreDataProperties.swift */,
+				AAE2401424B2156B00B6117A /* Model.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAE23FFF24B214C600B6117A /* SneakerStats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE2400F24B214C900B6117A /* Build configuration list for PBXNativeTarget "SneakerStats" */;
+			buildPhases = (
+				AAE23FFC24B214C600B6117A /* Sources */,
+				AAE23FFD24B214C600B6117A /* Frameworks */,
+				AAE23FFE24B214C600B6117A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SneakerStats;
+			productName = "SneakerStats-withCoreData";
+			productReference = AAE2400024B214C600B6117A /* SneakerStats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE23FF824B214C500B6117A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AAE23FFF24B214C600B6117A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = AAE23FFB24B214C500B6117A /* Build configuration list for PBXProject "SneakerStats" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAE23FF724B214C500B6117A;
+			productRefGroup = AAE2400124B214C600B6117A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE23FFF24B214C600B6117A /* SneakerStats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAE23FFE24B214C600B6117A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE2400B24B214C900B6117A /* Preview Assets.xcassets in Resources */,
+				AAE2400824B214C900B6117A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAE23FFC24B214C600B6117A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E457624B758D2001A93F7 /* CountingUpTimerView.swift in Sources */,
+				AAD8774E24F1702D00B370E7 /* StartWalkingView.swift in Sources */,
+				AAE2402C24B21DFB00B6117A /* Sneaker+CoreDataProperties.swift in Sources */,
+				AAE24B7324B4C46C00735E51 /* lastWalkView.swift in Sources */,
+				AA9A850C24B4F77C00CE289F /* DailySuggestionsStatsView.swift in Sources */,
+				AA97FB7D24B26D9200644FC2 /* Sneaker.swift in Sources */,
+				AAE2402124B219FC00B6117A /* FetchableImage.swift in Sources */,
+				AA97FB7B24B26D4C00644FC2 /* AddView.swift in Sources */,
+				AA97FB8124B2783400644FC2 /* DetailedView.swift in Sources */,
+				AAE2400624B214C600B6117A /* ContentView.swift in Sources */,
+				AAE2400424B214C600B6117A /* SneakerStatsApp.swift in Sources */,
+				AA30F02E24B3A71F00FE7934 /* RatingView.swift in Sources */,
+				AAE2402B24B21DFB00B6117A /* Sneaker+CoreDataClass.swift in Sources */,
+				AAE24B7124B4C05900735E51 /* StartWalkingButtonView.swift in Sources */,
+				AAE2401324B2150900B6117A /* PersistentCloudKitContainer.swift in Sources */,
+				AAD8775724F1AFBF00B370E7 /* SearchBarView.swift in Sources */,
+				AA97FB8324B2785000644FC2 /* SneakerInfoView.swift in Sources */,
+				AAE2401624B2156B00B6117A /* Model.xcdatamodeld in Sources */,
+				AA97FB7F24B26EE800644FC2 /* SearchedSneakersModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AAE2400D24B214C900B6117A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAE2400E24B214C900B6117A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAE2401024B214C900B6117A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SneakerStats/Preview Content\"";
+				DEVELOPMENT_TEAM = T23P54M8LP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SneakerStats/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakubFlorek.sneakerstats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAE2401124B214C900B6117A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SneakerStats/Preview Content\"";
+				DEVELOPMENT_TEAM = T23P54M8LP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SneakerStats/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakubFlorek.sneakerstats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAE23FFB24B214C500B6117A /* Build configuration list for PBXProject "SneakerStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE2400D24B214C900B6117A /* Debug */,
+				AAE2400E24B214C900B6117A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE2400F24B214C900B6117A /* Build configuration list for PBXNativeTarget "SneakerStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE2401024B214C900B6117A /* Debug */,
+				AAE2401124B214C900B6117A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAE2401424B2156B00B6117A /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAE2401524B2156B00B6117A /* Model.xcdatamodel */,
+			);
+			currentVersion = AAE2401524B2156B00B6117A /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AAE23FF824B214C500B6117A /* Project object */;
+}
